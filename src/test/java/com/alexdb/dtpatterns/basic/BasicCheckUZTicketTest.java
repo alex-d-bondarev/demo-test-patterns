@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.Condition.*;
 
-public class CheckUZTicketTest {
+public class BasicCheckUZTicketTest {
 
     private By calendarPopup = By.xpath("//div[@class='ui-calendar-container']");
     private By dateHoverInput = By.xpath("//input[@name='date-hover']");
