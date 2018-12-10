@@ -1,5 +1,6 @@
 package com.alexdb.dtpatterns.loadableComponent;
 
+import com.alexdb.dtpatterns.common.LoadableComponent;
 import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Condition.exist;
@@ -8,7 +9,7 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
 import static com.codeborne.selenide.Selenide.open;
 
-public class LCUZTicketSearchPage extends LCHeaderElement implements LoadableComponent{
+public class LCUZTicketSearchPage extends LCHeaderElement implements LoadableComponent {
 
     private By calendarPopup = By.xpath("//div[@class='ui-calendar-container']");
     private By dateHoverInput = By.xpath("//input[@name='date-hover']");

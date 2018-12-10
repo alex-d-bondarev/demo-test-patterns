@@ -1,5 +1,6 @@
 package com.alexdb.dtpatterns.pageComponents;
 
+import com.alexdb.dtpatterns.common.Page;
 import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Condition.exist;
@@ -7,7 +8,7 @@ import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
 
-public class PCUZTicketSearchPage extends PCHeaderElement {
+public class PCUZTicketSearchPage extends PCHeaderElement implements Page {
 
     private By calendarPopup = By.xpath("//div[@class='ui-calendar-container']");
     private By dateHoverInput = By.xpath("//input[@name='date-hover']");
