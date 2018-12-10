@@ -3,7 +3,7 @@ package com.alexdb.dtpatterns.dataRegistry;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TestUserRegistry {
+public class UserRegistryTest {
 
     @Test
     public void registryProvidesUniqueNumbers(){
