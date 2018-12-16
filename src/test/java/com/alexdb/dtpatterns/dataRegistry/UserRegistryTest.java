@@ -7,10 +7,10 @@ public class UserRegistryTest {
 
     @Test
     public void registryProvidesUniqueNumbers(){
-        User user1 = UserRegistry.getUser();
-        User user2 = UserRegistry.getUser();
+        User user1 = UserRegistry.getUniqueUser();
+        User user2 = UserRegistry.getUniqueUser();
 
         Assert.assertNotEquals(user1.getNumber(), user2.getNumber(),
-                "Users should have unequal numbers.");
+                "Users should have unique numbers.");
     }
 }

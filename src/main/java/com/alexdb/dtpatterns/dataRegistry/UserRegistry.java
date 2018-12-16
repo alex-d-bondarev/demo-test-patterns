@@ -5,7 +5,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class UserRegistry {
     private static AtomicInteger COUNTER = new AtomicInteger(0);
 
-    public static User getUser(){
+    public static User getUniqueUser(){
         int index = COUNTER.incrementAndGet();
         return new User(index);
     }

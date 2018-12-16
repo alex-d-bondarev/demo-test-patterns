@@ -1,15 +1,14 @@
-package com.alexdb.dtpatterns.PageComponents;
+package com.alexdb.dtpatterns.pageElement;
 
-import com.alexdb.dtpatterns.pageComponents.PCUZTicketSearchPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import static com.codeborne.selenide.Selenide.open;
 
-public class PCCheckUZTicketTest {
+public class PECheckUZTicketTest {
 
     private String url = "https://booking.uz.gov.ua";
-    private PCUZTicketSearchPage uzTicketSearchPage = new PCUZTicketSearchPage();
+    private PEUZTicketSearchPage uzTicketSearchPage = new PEUZTicketSearchPage();
 
 
     @Test
